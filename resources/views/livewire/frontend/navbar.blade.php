@@ -1,4 +1,4 @@
-<div class="container">
+<div>
    <ul class="topNavBar">
       <li>
          <a href="#">Help</a></li>

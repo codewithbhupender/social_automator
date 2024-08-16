@@ -1,8 +1,18 @@
-$primaryColor:#3498DB;
-$secondaryColor:#F1C40F;
-$secondaryColor2:#8E44AD;
-$backgroundColor:#F7F7F7;
-$accentColor:#2ECC71;
+// Primary Color
+$primaryColor: #007bff;
+
+// Secondary Colors
+$deep-space: #212121;
+$electric-green: #34c759;
+$warm-orange: #ff9900;
+
+// Accent Colors
+$bright-coral: #ffc67d;
+$soft-mint: #b2fffc;
+
+// Background Colors
+$backgroundColor: #f7f7f7;
+$dark-gray: #333333;
 $fontFamily:poppins;
 
 body{
@@ -43,4 +53,7 @@ nav.navbar.navbar-expand-lg.bg-body-tertiary {
     text-decoration: none;
     color: black;
     font-size: 15px;
+}
+.mainTitle{
+    font-weight: 600;
 }

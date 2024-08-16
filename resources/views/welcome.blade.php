@@ -19,6 +19,10 @@
         @vite(['resources/assets/saas/style.scss'])
     </head>
     <body class="antialiased font-sans">
+        {{-- main site wrapper  --}}
+        <div class="container">
        @livewire('frontend.Navbar')
+       @livewire('frontend.MainSection')
+    </div>
     </body>
 </html>
