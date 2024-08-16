@@ -1,0 +1,46 @@
+$primaryColor:#3498DB;
+$secondaryColor:#F1C40F;
+$secondaryColor2:#8E44AD;
+$backgroundColor:#F7F7F7;
+$accentColor:#2ECC71;
+$fontFamily:poppins;
+
+body{
+    background-color: $backgroundColor  !important;
+    font-family: $fontFamily;
+}
+
+nav.navbar.navbar-expand-lg.bg-body-tertiary {
+    background-color: white !important;
+}
+
+.contact-button {
+    background-color: $primaryColor;
+    border-radius: 7px;
+    color: white;
+}
+.contact-button:hover{
+    color: white;
+}
+.nav-link:hover {
+    color: white ;
+    border-bottom: 1px solid $primaryColor;
+}
+.nav-link{
+    margin-left:10px
+}
+.topNavBar{
+        padding: 20px;
+        margin: 0;
+        display: flex;
+        justify-content: flex-end;
+        list-style: none;
+}
+.topNavBar li{
+    margin-left: 20px;
+}
+.topNavBar a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
