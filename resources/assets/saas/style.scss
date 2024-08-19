@@ -13,7 +13,7 @@ $soft-mint: #b2fffc;
 // Background Colors
 $backgroundColor: #f7f7f7;
 $dark-gray: #333333;
-$fontFamily:poppins;
+$fontFamily:inter;
 
 body{
     background-color: $backgroundColor  !important;
@@ -28,12 +28,15 @@ nav.navbar.navbar-expand-lg.bg-body-tertiary {
     background-color: $primaryColor;
     border-radius: 7px;
     color: white;
+    border: 1px solid $primaryColor;
 }
 .contact-button:hover{
-    color: white;
+    background-color: white;
+    
+    border: 1px solid $primaryColor;
 }
 .nav-link:hover {
-    color: white ;
+    color: black ;
     border-bottom: 1px solid $primaryColor;
 }
 .nav-link{
@@ -55,5 +58,57 @@ nav.navbar.navbar-expand-lg.bg-body-tertiary {
     font-size: 15px;
 }
 .mainTitle{
-    font-weight: 600;
+    font-weight: 700;
+    font-size: 35px;
+    font-weight: bold;
+    background: none;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(
+      to right,
+      $primaryColor 0%,
+      $electric-green 50%,
+      $warm-orange 100%
+    );
 }
+.main-section{
+    margin-top: 2rem;
+}
+
+.typing-text {
+    border-right: 0.15em solid black; /* cursor */
+    white-space: nowrap; /* keep text on one line */
+    overflow: hidden; /* hide excess text */
+    animation: typing 4s steps(40) infinite;
+  }
+  
+  @keyframes typing {
+    0% {
+      width: 0;
+    }
+    50% {
+      width: 100%;
+    }
+    100% {
+      width: 0;
+    }
+  }
+  
+  .typing-text::after {
+    content: "|"; /* cursor */
+    animation: blink 1s infinite;
+  }
+  
+  @keyframes blink {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
